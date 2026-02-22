@@ -49,11 +49,13 @@ a {
 
 .signup {
     background-color: #3882f6;
-    border-radius: 20%;
+    border-radius: 10px;
     cursor: pointer;
     margin-left: 10px;
-    max-width: 100px;
+    width: 130px;
+    height: 35px;
     flex-shrink: 0;
+    font-weight: 900;
 }
 
 .top-placeholder {
@@ -142,4 +144,86 @@ a {
     height: 75px;
     width: 159px;
     text-align: center;
+}
+
+.body-two {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    height: 450px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    width: 830px;
+    height: 180px;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.author {
+    display: flex;
+    font-size: 24px;
+    font-weight: 900;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-left: 500px;
+}
+
+.contact { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    justify-content: center;
+}
+
+.contact-text {
+    display: flex;
+    background-color: #3882f6;
+    height: 150px;
+    width: 1100px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.call,
+.call-button {
+    font-weight: 900;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.call {
+    font-size: 24px; 
+}
+
+.call-subtext {
+    font-size: 17px;
+    color: #e5e7eb;
+}
+
+.call-button {
+    border: solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 130px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    height: 150px;
+    font-size: 22px;
 }
