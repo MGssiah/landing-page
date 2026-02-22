@@ -99,22 +99,47 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 450px;
+    padding-bottom: 25px;
 }
 
-.subtexts,
-.box,
 .boxes {
     display: flex;
+    gap: 30px;
 }
 
 .box {
-    height: 150px;
-    width: 150px;
+    height: 160px;
+    width: 160px;
     background-color: white;
     border: solid #3882f6;
     border-radius: 10%;
 }
+.subtexts {
+    display: flex;
+    gap: 39px;
+    padding-left: 3px;
+    
+}
+.box-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
 
-.boxes {
-    gap: 20px;
+.bodyone-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f291f;
+    display: flex;
+    margin-bottom:45px;
+}
+
+.text {
+    flex-wrap: wrap;
+    height: 75px;
+    width: 159px;
+    text-align: center;
 }
